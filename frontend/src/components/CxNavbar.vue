@@ -30,12 +30,33 @@ export default {
 <style scoped>
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+li:hover {
+    color: chartreuse;
 }
 </style>
