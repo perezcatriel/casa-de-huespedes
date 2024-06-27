@@ -1,10 +1,11 @@
 <template>
     <div class="presentation">
-        <img src="../assets/sunset love.jpg" alt="img principal" class="img-principal">
+        <img src="../assets/logo 2.jpeg" alt="img principal" class="img-principal">
+        
         <div class="presentation__aside">
             <p>Vive Jeri al máximo: disfruta, explora y relájate en nuestra casa de huéspedes. ¡Reserva ya!</p>
             <div>
-                <img src="../assets/logo 2.jpeg" alt="img 1">
+                <img src="../assets/sunset love.jpg" alt="img 1">
                 <img src="../assets/jericoacoara.jpg" alt="img 2">
             </div>
         </div>
@@ -29,6 +30,7 @@ export default {
 p {
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
     padding: 10px;
     margin-bottom: 25px;
 }
