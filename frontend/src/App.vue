@@ -1,24 +1,9 @@
 <template>
-  <div class="app">
-    <VxHome />
-  </div>
-  
+  <router-view></router-view>
 </template>
 
 <script>
-import VxHome from './views/VxHome.vue'
-
 export default {
-  name: 'App',
-  components: {
-    VxHome
-  }
+  name: 'App'
 }
 </script>
-
-<style>
-* {
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-</style>
