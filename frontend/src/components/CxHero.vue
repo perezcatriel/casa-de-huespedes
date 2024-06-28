@@ -48,7 +48,7 @@ export default {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 3px 3px 3px black;
 }
 .button {
   background-color: #00a8ff;
