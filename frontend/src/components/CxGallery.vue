@@ -36,7 +36,7 @@
   import casa26 from '@/assets/photos/terraza7.jpeg'
   import casa27 from '@/assets/photos/bote.jpeg'
   import casa28 from '@/assets/photos/cactus.jpeg'
-  import casa29 from '@/assets/photos/cactus + pajaro.jpeg'
+  import casa29 from '@/assets/photos/cactus-pajaro.jpeg'
   import casa30 from '@/assets/photos/pajaro.jpeg'
   import casa31 from '@/assets/photos/guriu.jpeg'
   import casa32 from '@/assets/photos/jeri cartel.jpeg'
