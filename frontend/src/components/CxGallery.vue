@@ -8,17 +8,36 @@
   </template>
   
   <script>
-  import casa1 from '@/assets/casa1.jpeg'
-  import casa2 from '@/assets/casa2.jpeg'
-  import casa3 from '@/assets/casa3.jpeg'
-  import casa4 from '@/assets/casa4.jpeg'
-  import casa5 from '@/assets/casa5.jpeg'
-  import casa6 from '@/assets/casa6.jpeg'
-  import casa7 from '@/assets/casa7.jpeg'
-  import casa8 from '@/assets/casa8.jpeg'
-  import casa9 from '@/assets/casa9.jpeg'
-  import casa10 from '@/assets/casa10.jpeg'
-  import casa11 from '@/assets/casa11.jpeg'
+  import casa1 from '@/assets/photos/burro.jpeg'
+  import casa2 from '@/assets/photos/hab11.jpeg'
+  import casa3 from '@/assets/photos/hab22.jpeg'
+  import casa4 from '@/assets/photos/baño1.jpeg'
+  import casa5 from '@/assets/photos/baño2.jpeg'
+  import casa6 from '@/assets/photos/baño3.jpeg'
+  import casa7 from '@/assets/photos/hab2.jpeg'
+  import casa8 from '@/assets/photos/hab3.jpeg'
+  import casa9 from '@/assets/photos/hab4.jpeg'
+  import casa10 from '@/assets/photos/hab1.jpeg'
+  import casa11 from '@/assets/photos/bano1.jpeg'
+  import casa12 from '@/assets/photos/bano2.jpeg'
+  import casa13 from '@/assets/photos/cocina1.jpeg'
+  import casa14 from '@/assets/photos/cocina3.jpeg'
+  import casa15 from '@/assets/photos/cocina2.jpeg'
+  import casa16 from '@/assets/photos/patio1.jpeg'
+  import casa17 from '@/assets/photos/patio2.jpeg'
+  import casa18 from '@/assets/photos/patio3.jpeg'
+  import casa19 from '@/assets/photos/patio4.jpeg'
+  import casa20 from '@/assets/photos/terraza1.jpeg'
+  import casa21 from '@/assets/photos/terraza2.jpeg'
+  import casa22 from '@/assets/photos/terraza3.jpeg'
+  import casa23 from '@/assets/photos/terraza4.jpeg'
+  import casa24 from '@/assets/photos/terraza5.jpeg'
+  import casa25 from '@/assets/photos/terraza6.jpeg'
+  import casa26 from '@/assets/photos/terraza7.jpeg'
+
+
+
+
 
 
   export default {
@@ -36,7 +55,22 @@
           { src: casa8, alt: 'Imagen 8' },
           { src: casa9, alt: 'Imagen 9' },
           { src: casa10, alt: 'Imagen 10' },
-          { src: casa11, alt: 'Imagen 11' }
+          { src: casa11, alt: 'Imagen 11' },
+          { src: casa12, alt: 'Imagen 11' },
+          { src: casa13, alt: 'Imagen 11' },
+          { src: casa14, alt: 'Imagen 11' },
+          { src: casa15, alt: 'Imagen 11' },
+          { src: casa16, alt: 'Imagen 11' },
+          { src: casa17, alt: 'Imagen 11' },
+          { src: casa18, alt: 'Imagen 11' },
+          { src: casa19, alt: 'Imagen 11' },
+          { src: casa20, alt: 'Imagen 11' },
+          { src: casa21, alt: 'Imagen 11' },
+          { src: casa22, alt: 'Imagen 11' },
+          { src: casa23, alt: 'Imagen 11' },
+          { src: casa24, alt: 'Imagen 11' },
+          { src: casa25, alt: 'Imagen 11' },
+          { src: casa26, alt: 'Imagen 11' },
         ]
       };
     }

@@ -2,16 +2,16 @@
   <header>
     <div class="header-container">
       <img
-        src="@/assets/logo 2.jpeg"
+        src="@/assets/logo.jpeg"
         alt="Casa de Huéspedes Logo"
         class="logo"
       />
       <h1>Casa de Huéspedes</h1>
-      <img src="@/assets/menu.svg" alt="menu" @click="toggleMenu" />
+      <img src="@/assets/icons/menu.svg" alt="menu" @click="toggleMenu" />
     </div>
     <nav>
       <ul v-show="isMenuOpen" class="header__link">
-        <li><a href="#about">Información</a></li>
+        <li><a href="#about">Nosotros</a></li>
         <li><a href="#accommodations">Alquiler</a></li>
         <li><a href="#gallery">Galería</a></li>
         <li><a href="#contact">Contacto</a></li>

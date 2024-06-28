@@ -15,9 +15,7 @@
   </template>
   
   <script>
-  import casa1 from '@/assets/casa1.jpeg'
-  import casa2 from '@/assets/casa2.jpeg'
-  import casa3 from '@/assets/casa5.jpeg'
+  import casa from '@/assets/photos/casa2.jpeg'
 
   export default {
     name: 'CxAccommodations',
@@ -28,21 +26,21 @@
             id: 1,
             title: 'Casa Entera',
             description: 'Espacio perfecto para toda la familia.',
-            image: casa1,
+            image: casa,
             link: 'https://www.airbnb.com/h/casadehuespedesjeri'
           },
           {
             id: 2,
             title: 'Suite con Aire Acondicionado',
             description: 'Confort y elegancia en un entorno tranquilo.',
-            image: casa2,
+            image: casa,
             link: 'https://www.airbnb.com/h/casadehuespedesjeri1'
           },
           {
             id: 3,
             title: 'Suite con Aire Acondicionado y Desayuno incluido',
             description: 'Maxima comodidas y disfrute.',
-            image: casa3,
+            image: casa,
             link: 'https://www.airbnb.com/h/casadehuespedesjeri2'
           }
         ]
