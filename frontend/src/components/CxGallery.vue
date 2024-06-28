@@ -112,6 +112,7 @@
     padding-left: 20px;
     padding-right: 20px;
     width: 80vw;
+    margin: auto;
   }
   .images img {
     width: 300px;

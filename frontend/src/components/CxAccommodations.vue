@@ -53,6 +53,9 @@
   .accommodations {
     padding: 40px 20px;
   }
+  h2 {
+    text-align: center;
+  }
   .cards {
     display: flex;
     justify-content: center;

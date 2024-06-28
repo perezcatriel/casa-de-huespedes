@@ -17,5 +17,10 @@
     text-align: center;
     background-color: #f5f5f5;
   }
+  p {
+    width: 80vw;
+    margin: auto;
+  }
+
   </style>
   

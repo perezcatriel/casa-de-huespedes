@@ -30,7 +30,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
   z-index: -1; /* Asegura que el video esté detrás del contenido de texto */
 }
 .hero-overlay {
