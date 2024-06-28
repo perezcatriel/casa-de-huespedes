@@ -1,13 +1,14 @@
 <template>
   <header>
     <div class="header-container">
-      <img
-        src="@/assets/logo.jpeg"
-        alt="Casa de Huéspedes Logo"
-        class="logo"
-      />
+      <img src="@/assets/logo.jpeg" alt="Casa de Huéspedes Logo" class="logo" />
       <h1>Casa de Huéspedes</h1>
-      <img src="@/assets/icons/menu.svg" alt="menu" @click="toggleMenu" />
+      <img
+        src="@/assets/icons/menu.svg"
+        alt="menu"
+        @click="toggleMenu"
+        class="menu"
+      />
     </div>
     <nav>
       <ul v-show="isMenuOpen" class="header__link">

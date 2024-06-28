@@ -1,9 +1,5 @@
 <template>
   <section class="hero">
-    <video autoplay muted loop class="video-bg">
-      <source src="@/assets/videos/casa-video1.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
     <div class="hero-overlay"></div>
     <div class="hero-text">
       <h2>Bienvenidos a <i>Casa de Huéspedes</i></h2>
@@ -22,16 +18,10 @@ export default {
 <style scoped>
 .hero {
   position: relative;
+  background-image: url("@/assets/photos/jericoacoara.jpg");
+  background-size: cover;
+  background-position: center;
   height: 80vh;
-}
-.video-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit:cover;
-  z-index: -1; /* Asegura que el video esté detrás del contenido de texto */
 }
 .hero-overlay {
   position: absolute;
@@ -57,6 +47,5 @@ export default {
   text-decoration: none;
   border-radius: 5px;
   text-shadow: 0 0;
-
 }
 </style>
