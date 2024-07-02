@@ -39,7 +39,7 @@
           {
             id: 3,
             title: 'Suite con Aire Acondicionado y Desayuno incluido',
-            description: 'Maxima comodidas y disfrute.',
+            description: 'Maxima comodidad y disfrute.',
             image: casa,
             link: 'https://www.airbnb.com/h/casadehuespedesjeri2'
           }
