@@ -13,7 +13,7 @@
     methods: {
       downloadPDF() {
         const link = document.createElement('a');
-        link.href = '../assets/pdf/Presentación planificación guía informativa de viaje con bonitas fotografías fondo claro.pdf'; // Reemplaza con la URL de tu PDF
+        link.href = '/Presentación planificación guía informativa de viaje con bonitas fotografías fondo claro.pdf'; // Reemplaza con la URL de tu PDF
         link.download = 'Guia_de_Viaje_Jericoacoara.pdf'; // Nombre con el que se descargará el archivo
         document.body.appendChild(link);
         link.click();
